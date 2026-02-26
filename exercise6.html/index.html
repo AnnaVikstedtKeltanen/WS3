@@ -1,18 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multiple Listeners</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <button id="a">Click for Multiple</button>
-    <script>
-        var element = document.getElementById('a');
-        // This overwrites the previous onclick
-        element.onclick = function() { alert('First!'); };
-        element.onclick = function() { alert('Second!'); }; // Only this one executes
-        // These both function (multiple)
-        element.addEventListener('click', function() { alert('Third!'); });
-        element.addEventListener('click', function() { alert('Fourth!'); });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

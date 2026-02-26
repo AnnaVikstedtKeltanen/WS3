@@ -1,0 +1,62 @@
+p {
+    color: lightseagreen;
+}
+
+h1 {
+    color: green;
+}
+
+div {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+span {
+    font-weight: bold;
+    color: green;
+}
+
+.container {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: darkorange;
+}
+
+onmouseover {
+    background-color: orchid;
+}
+
+onmouseout {
+    background-color: black;
+}
+
+.button onclick {
+    background-color: orchid;
+}
+
+id {
+    color: purple;
+    font-size: 18px;
+}
+
+onload {
+    background-color: lightpink;
+}
+
+onkeydown {
+    background-color: lightblue;
+}
+onchange {
+    background-color: lightgreen;
+}

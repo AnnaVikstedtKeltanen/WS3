@@ -1,0 +1,46 @@
+p {
+    color: blue;
+}
+
+h1 {
+    color: red;
+}
+
+div {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+span {
+    font-weight: bold;
+    color: green;
+}
+
+.container {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: darkorange;
+}
+
+onmouseover {
+    background-color: red;
+}
+
+onmouseout {
+    background-color: black;
+}
+
+.button onclick {
+    background-color: red;
+}

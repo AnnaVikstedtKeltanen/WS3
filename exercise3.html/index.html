@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Named Functions for Events</title>
     <meta charset="UTF-8">
@@ -10,10 +10,9 @@
     <h1>Named Function Demonstration</h1>
     <p>What is the name(s) of your browser?</p>
     <button onclick="myFunction()">Try it</button>
-    <p id="demo"></p> <!-- Output area -->
+    <p id="demo"></p> <!-- id for styling and JS access -->
     <script>
         function myFunction() {
-            // Obtain browser information using navigator (BOM)
             document.write("Name is " + navigator.appName); <!-- Writes to page -->
             document.write("<br>Code name is " + navigator.appCodeName);
         }
