@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <!-- Objective 2-Event Attributes in HTML including hndling Events Using HTML Attributes (e.g., onclick, onsubmit) -->
+    <h1>Event Attributes Demo</h1>
+    <!-- <input type="text" onfocus="alert('Input focused!')">  onfocus on input -->    
+    <form onsubmit="alert('Form submitted!'); return false;"> <!-- onsubmit on form -->
+        <input type="text" placeholder="Enter name">
+        <button type="submit">Submit</button>
+    </form>
+    <button onmouseover="alert('Mouse over!')" onmouseout="alert('Mouse out!')">Hover Button</button> <!-- Multiple attributes -->
+</body>
+</html>
